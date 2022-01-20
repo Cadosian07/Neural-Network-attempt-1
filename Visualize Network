@@ -1,0 +1,7 @@
+
+var numInputs = readInt("Number of inputs?");
+var inputs = [];
+for (var i=0; i<numInputs; i++) {
+    inputs.add(readInt("Input: "));
+}
+println(inputs);
